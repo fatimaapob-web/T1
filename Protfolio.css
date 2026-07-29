@@ -7,6 +7,9 @@
 body{
     font-family:Arial, sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .navbar{
     background:#f8f9fb;
@@ -41,32 +44,159 @@ body{
 }
 
 .porto{
-  border-radius: 10%;  
+  border-radius: 10%;
 }
+.tite{
+    
+font-family: Arial, sans-serif;
+   color:rgb(26, 155, 215);
+   background:#f8f9fb;
+   font-size:40px;
+   font-weight:lighter;
+   font-style: italic;
+   align-items: center;
+    padding-left: 100px;
+    padding-bottom: 20px;
+     padding-top: 20px;
+     
+    
+  
+
+}
+
+
 #info{
     display: grid;
-    grid-template-columns:1fr 1fr;
-    justify-content:space-between;
-    gap: 20px;}
+    grid-template-columns:2fr 1fr;
+    justify-content:center;
+    align-items: center;
+    margin: 100px;
+     padding-bottom: 50px;  }
 
+.txt{
+ font-family: Arial, sans-serif;
+   color:black;
+   font-size:20px;
+   font-weight:lighter;
+   font-style: italic;
+   align-items: center;
+    padding:40px; 
+ 
+}
+
+.Designer{
+ font-family:Arial, sans-serif;
+   color:black;
+   font-size:40px;
+   font-weight:lighter;
+   align-items: center;
+    padding-bottom: 50px;  
+}
 .name{
    font-family:Arial, sans-serif;
-   color:black;
-   font-size:100px;
+   color:rgb(26, 155, 215);
+   font-size:55px;
    font-weight:bold;
+   align-items: center;   
+
     }
 
-    #Certificates{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content:space-between;
-    size: 20px;
-     width: 20px;
-    gap: 10px;}
 
 
    .profile-img {
   width: 200px;
   border: 4px dotted pink;
   /* border-radius: 50%; */
+}
+
+
+ #Contact a{
+    color:black;
+    text-decoration:none;
+    transition:.3s;
+}
+
+#Contact a:hover{
+    color:#60A5FA;
+}
+
+#About{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content:center;
+    align-items: center;
+     margin: 100px;    
+}
+
+#Skills{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    justify-content:center;
+    align-items: center;
+        margin: 100px;
+
+}
+ 
+.list{
+    list-style:none;
+    padding: 30px;
+    width: 200px;
+    align-items: center;
+  border: 4px dotted pink;
+   margin: 10px
+}
+
+#Education{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content:center;
+    align-items: center;
+    margin: 100px;    
+}
+
+#Experience{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    justify-content:center;
+    align-items: center;
+    margin: 100px;    
+}
+ /* .Certificates{
+    : #f8f9fb;} */
+    
+ #Certificates{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    justify-content:center;
+    align-items: center;
+    /* size: 20px;
+    width: 20px; */
+     /* margin: 100px; */
+     padding: 100px;
+    gap: 100px; 
+    background-color: #f8f9fb; 
+}
+.footer{
+  
+     font-family: Arial, sans-serif;
+   color:black;
+   font-size:20px;
+   font-weight:bolder;
+   font-style: italic;
+   align-items: center;
+   text-align-last:center;
+    padding:40px; 
+
+}
+
+.tite2{
+   
+    font-family: Arial, sans-serif;
+   color:rgb(26, 155, 215);
+   font-size:25px;
+   font-weight:lighter;
+   font-style: italic;
+   align-items: center;
+   text-align-last:left;
+    padding:10px;
 }
